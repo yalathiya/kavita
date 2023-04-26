@@ -5,6 +5,6 @@ const app = express();
 app.use(express.json());
 app.use("/api/posts", postRoutes);
 
-app.listen(8000, () => {
+app.listen(8800, () => {
   console.log("Connected");
 });
